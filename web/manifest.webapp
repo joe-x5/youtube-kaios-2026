@@ -1,0 +1,70 @@
+{
+  "name": "YouTube W1.0",
+  "display": "YouTube W1.0",
+  "description": "Watch, stream and discover what the world is watching with YouTube W1.0. YouTube W1.0 gives everyone a voice and a platform to discover the world. Explore brand new content, music, news and more with the official YouTube W1.0 app.",
+  "subtitle": "Get the official YouTube W1.0 app",
+  "theme": "#e62117",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "https://joe-x5.github.io/youtube-kaios-2026/web/icon.png",
+    "84": "https://joe-x5.github.io/youtube-kaios-2026/web/icon.png"
+  },
+  "origin": "app://youtubew10.localhost",
+  "developer": {
+    "name": "YouTube, X0 TEAM",
+    "url": "https://youtube.x0.rf.gd"
+  },
+  "type": "privileged",
+  "fullscreen": true,
+  "ime_default_softkey_bar": true,
+  "permissions": {
+    "audio-capture": {
+      "description": "Required for voice input"
+    },
+    "audio-channel-content": {
+      "description": "Required for voice input"
+    },
+    "browser": {
+      "description": "Required for embedding a browser"
+    },
+    "feature-detection": {
+      "description": "Required for detecting device's hardware features."
+    },
+    "spatialnavigation-app-manage": {
+      "description": "Required for toggling the cursor."
+    },
+    "udp-socket": {
+      "description": "Required for ssdp implementation."
+    },
+    "systemXHR": {
+      "description": "Required for ssdp implementation."
+    },
+    "tcp-socket": {
+      "description": "Required for creating and using TCP sockets."
+    },
+    "donglemanager": {
+      "description": "Required for obtaining the local IP address."
+    }
+  },
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "YouTube W1.0",
+      "description": "Watch, stream and discover what the world is watching with YouTube W1.0. YouTube W1.0 gives everyone a voice and a platform to discover the world. Explore brand new content, music, news and more with the official YouTube W1.0 app.",
+      "subtitle": "Get the official YouTube W1.0 App.  Now with support for the JioMediaCable."
+    }
+  },
+  "activities": {
+    "YouTube W1.0": {
+      "href": "https://joe-x5.github.io/youtube-kaios-2026/web/index.html?expect_activity=1",
+      "filters": {
+        "type": [
+          "video",
+          "url"
+        ]
+      }
+    }
+  },
+  "version": "1.92.53.2",
+  "userAgentInfo": "YouTube W1.0/1.92.53.J"
+}
