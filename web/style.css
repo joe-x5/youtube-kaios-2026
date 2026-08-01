@@ -1,0 +1,126 @@
+html,
+body,
+#mweb-container,
+#remote,
+#error{
+height:100%;
+margin:0;
+overflow:hidden
+}
+
+body{
+background-color:#424242;
+padding:0
+}
+
+iframe{
+width:100%;
+height:100%;
+border-width:0px
+}
+
+#mweb-container,
+#remote,
+#error{
+width:100%
+}
+
+#toast{
+position:absolute;
+right:0px;
+bottom:0px;
+left:0px;
+z-index:1;
+color:white;
+background-color:darkgray;
+border-top:1px solid black
+}
+
+#error{
+background-color:#f7f7f7;
+color:#313131;
+display:flex;
+flex-direction:column;
+justify-content:center;
+text-align:center
+}
+
+#error>div{
+margin:10px 20px
+}
+
+#error.hidden,
+.hidden{
+display:none
+}
+
+.logo{
+height:48px;
+display:flex;
+margin:3px 0px;
+align-items:center;
+justify-content:center
+}
+
+
+.logo img{
+height:20px;
+width:82px}
+
+.dpad{
+height:192px;
+display:flex;
+justify-content:center
+}
+
+.dpad svg{
+width:192px;
+height:192px
+}
+
+@media (orientation:landscape){
+.logo{
+height:40px
+}
+
+
+.dpad{
+height:150px
+}
+
+.dpad svg{
+width:150px;
+height:150px
+}
+}
+
+.bottom-bar{
+background-color:#000000;
+bottom:0px;
+display:flex;
+height:30px;
+justify-content:space-between;
+position:absolute;
+width:100%
+}
+
+.bottom-bar .close,
+.bottom-bar .minimize{
+display:block;
+height:24px;
+margin:5px;
+width:24px
+}
+
+.dpad svg *{
+transition:all 0.3s
+}
+
+.dpad .active.arrow,
+.dpad .active.center{
+fill:#ffffff
+}
+
+.dpad .active.panel{
+fill:#606060
+}
