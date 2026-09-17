@@ -52,7 +52,7 @@ document.addEventListener("keydown", (e) => {
       break;
 
     /* Fullscreen toggle with '0' */
-    case "00":
+    case "0":
       toggleFullScreen();
       break;
 
